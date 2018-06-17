@@ -1,0 +1,55 @@
+body{color: #000;}
+.h-clear{width: 1200px;}
+.shop-nav{height: 98px;background:#f9f9f9; border-bottom: #ccc solid 1px;}
+	.shop-nav-init{width: 1200px; margin:0 auto;color: #724a88;}
+	
+	.shop-nav-righht{float: right;width: 560px;height: 42px;}
+		.progress{height: 20px;}
+		.car-step{}
+		.car-step li{float: left;}
+		
+.wrap{height: 200px; color: #000;overflow: hidden; padding: 150px 0; display: none; }
+
+	.wrap>div{width: 1200px; margin: 0 auto; text-align: center;}
+	.nothingbox{font-weight: bold; height: 60px; font-size: 14px;display: flex; justify-content: center; align-items: center;}
+	.nothingbox>img{display: block; height: 34px;width: 39px;}
+	.inline{float: left;}
+	
+	.toindex{height: 40px; }
+	.toindex a{margin: 0 auto; height: 40px; width: 120px; display: block;background: #724a88; font-size: 18px;color: #fff; text-align:center;line-height: 40px;}
+	.sop-span a{color: #07a6e0;}
+	
+	#loginTip{display: none;}
+	
+	
+	.shop-main{width: 1200px;margin:0 auto;}
+	.cont-title-init{ border-bottom: #ccc 1px solid; padding: 15px 10px; font-size: 20px; color: #52346a ;}
+
+	.sop-table{width: 1200px;border-collapse: collapse;}
+	.sop-table th{ padding: 12px;color: #52346a;}
+	.cont-main tr{border-bottom: #ccc 1px solid; vertical-align: middle;}
+	.sop-table td{ padding: 12px;color: #52346a;}
+	.cont-main img{width: 100px; height: 100px; display: block;}
+	.cont-main tbody{background: #fff; text-align: center;}
+	.cont-main input{ width: 14px; height: 14px;}
+	.cont-main tfoot label{margin: 0 10px;}
+	.cont-main tbody span{cursor: pointer;}
+	.cont-main .sop-table i{color: #f49f26; font-style: normal;}
+	.adddel{ height: 30px;border: #ccc 1px solid;}
+	.adddel b{display: block;width: 30px; height: 30px;float: left; line-height: 30px;font-size: 16px; cursor: pointer;}
+	.adddel .good{border: #ccc 1px solid;border-bottom: none;border-top: none;cursor: default;}
+	tfoot{background: #fff;}
+	tfoot b{color: #f49f26;font-size: 16px;}
+	
+	.table-footer{background:#ccc;color: #fff;}
+	.continueshop{width: 130px; height: 33px;background: #724a88;display: block; text-align: center;line-height:33px ; font-size: 18px; color: #fff;}
+	.accounts{width: 80px; height: 33px;background: #f49f26;display: block; text-align: center; line-height:33px ; font-size: 18px;color: #fff;}
+	.delall{cursor: pointer;}
+
+
+.modalshow{display: none; left: 0;top: 0; height:100%;background:rgba(14,14,14,0.8);position: fixed; width: 100%;z-index:9;}
+	.modalshow div{width: 400px; height: 150px; padding: 0 20px; position: fixed; left: 0;top: 0;right: 0; bottom: 0; margin:auto; z-index: 9; background: #fff;}
+	.modalshow-title{padding: 10px 0; font-size: 18px; border-bottom: #ccc dashed 1px;}
+	.modalshow-title b{float: right;cursor: pointer;}
+	.modalshow-main{padding: 20px;}
+	#makesure{cursor: pointer; color: #fff; display: block; width: 60px; height: 30px; background: #724a88; border-radius: 5px; margin: 0 auto;}

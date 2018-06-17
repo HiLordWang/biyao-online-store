@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="css/item.css"/>
+		<link rel="stylesheet" type="text/css" href="font_to4acaz30az41jor/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="font_3wwhm5jtm6p/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="font_oktrwum2u79/iconfont.css"/>
+	</head>
+	<body>
+	<div class="header">
+			<div class="h-clear">
+				<ul class="header-nav">
+					<li><a href="#">首页</a><b>|</b></li>
+					<li><a href="#">平台政策</a><b>|</b></li>
+					<li><a href="#">商家入驻</a></li>
+				</ul>
+				<ul class="header-user">
+					<li class="user-out">
+						<a href="http://localhost/gulp/project/login.html" id="loginBtn" class="user-login">登录</a>
+						<a href="http://localhost/gulp/project/accLog.html" id="registBtn">注册</a>
+						
+					</li>
+					<li class="user-center">
+						<a href="#" id="userName"><span></span></a>
+						<div>
+							<i></i>
+							<ul>
+								<li><a href="#" target="_blank">我的订单</a></li>
+								<li><a href="#" target="_blank">个人中心</a></li>
+								<li><a href="#" class="login-out">退出登录</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><b>|</b></li>
+					
+					<li class="user-app">
+						<a href="#">下载必要APP</a>
+						<div>
+							<i></i>
+							<dl>
+								<dt><img src="images/1.png"/></dt>
+								<dd>
+									<span>买大牌制造商产品</span>
+									<h6 style="font-weight:normal">上必要</h6>
+									<p><img src="images/erweima_03.jpg"/></p>	
+								</dd>
+							</dl>
+						</div>
+					</li>
+					<li><b>|</b></li>
+					<li class="user-msg">
+						<a href="#" class="msg-center">
+							<i id="hasMsg"></i>
+							<i class="iconfont">&#xe624;</i><span class="msg-title">消息中心</span>
+							<i id="unread">0</i>						
+						</a>
+						
+						<div class='msg-center-box'>
+							<i class="msg-center-i" ></i>
+							<div id="msg-ul" style="left: -180px;">
+								<div id="msg-scroll"></div>
+								<div id="scrollOut" class="scrollOut off none">
+									<span id='scrollIn' class="scrollIn inline"></span>
+								</div>
+							</div>
+						</div>
+						
+					</li>
+					
+					<li class="vertical-line-hook" ><b>|</b></li>
+					
+					<li class="user-server">
+						
+						<a href="#">
+							客户服务
+							<i class="iconfont">&#xe63d;</i>
+							<span></span>
+						</a>
+						<div class="myserver">
+							<i></i>
+							<ul>
+								<li><a href="#">我的客服</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="user-shopCar">
+						<a href="http://localhost/gulp/project/shop.html"><i class="iconfont">&#xe899;</i>购物车<i id="shopCar">0</i></a>
+					</li>
+					
+				</ul>
+			</div>			
+	</div>
+	<div class="nav">
+		<div class="clear">
+			<a href="http://localhost/gulp/project/index.html" class="nav-logo"><img src="images/logo.jpg"/></a>
+			<div class="nav-search">
+				<p><input type="text" id="searchInput" placeholder="   请输入要搜索的商品"/><i class="iconfont">&#xe651;</i></p>
+			</div>
+		</div>
+	</div>
+	<ul class="rightBar">
+		<li class="rightBar-serve"><a href="http://tool.oschina.net/commons?type=4" class="login-hook"><i class="iconfont">&#xe62f;</i></a></li>
+		<li class="rightBar-share"><i class="iconfont">&#xe633;</i></li>
+		<li class="rightBar-code">
+			<i class="iconfont">&#xe642;</i>
+			<div>
+				<span></span>
+				<dl class="code-public">
+					<dt></dt>
+					<dd>扫码关注必要公众号</dd>
+				</dl>
+				<dl>
+					<dt></dt>
+					<dd>扫码下载必要APP</dd>
+				</dl>
+			</div>
+		</li>
+		<li class="rightBar-top"><i class="iconfont">&#xe63c;</i></li>
+	</ul>
+	<!-- 分享弹框 -->
+	<div class="shareCon">
+		<div>
+			<p>分享<b>X</b></p>
+			<div class="share-main">
+				<dl>
+					<dt><img class="share-code" src="images/share.jpg"/></dt>
+					<dd>扫一扫，分享给好友！</dd>
+				</dl>
+				<ul>
+					<li class="share-qq"><a target="_blank" href="#"></a><span>QQ空间</span></li>
+					<li class="share-sina"><a target="_blank" href="#"></a><span>新浪微博</span></li>
+					<li class="share-facebook"><a target="_blank" href="#"></a><span>Facebook</span></li>
+					<li class="share-twitter"><a target="_blank" href="#"></a><span>Twitter</span></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+		
+	<div class="section">
+		<div class="section-bread">
+			<a href="#">首页</a>
+			<span class="bread-title">&gt;&nbsp;纯钛飞行员（可配近视）</span>
+		</div>
+		
+		<div class="section-editor">
+			<div class="editor-main">
+				<div class="editor-picture">
+					<p>
+						<img src="images/item-section-1.jpg"/>
+						<span class="editor-toModel">体验3D模型</span>
+						<span class="editor-optometry">体验眼镜验光</span>
+					</p>
+					<ul>
+						<li class="choose"><img src="images/item-section-1.jpg"/></li>
+						<li><img src="images/item-section-2.jpg"/></li>
+						<li><img src="images/item-section-3.jpg"/></li>
+						<li><img src="images/item-section-4.jpg"/></li>
+						<li><img src="images/item-section-5.jpg"/></li>
+					</ul>
+					
+				</div>
+				<div class="editor-model">
+						<ul>
+							<li><img src="images/editor-model-1.jpg"/></li>
+							<li><img src="images/editor-model-2.jpg"/></li>
+							<li><img src="images/editor-model-3.jpg"/></li>
+							<li><img src="images/editor-model-4.jpg"/></li>
+							<li><img src="images/editor-model-5.jpg"/></li>
+							<li><img src="images/editor-model-6.jpg"/></li>
+							<li><img src="images/editor-model-7.jpg"/></li>
+							<li><img src="images/editor-model-8.jpg"/></li>
+						</ul>
+						<span class="editor-toPic">返回图片模式</span>
+						<span class="editor-reset"><i class="iconfont">&#xe626;</i></span>
+						<span class="editor-return"><i class="iconfont">&#xe609;</i></span>	
+				</div>
+				<div class="optometry">
+					<div>
+						<p>验光<b>X</b></p>					
+						<dl>
+							<dt><img src="images/ewm.jpg"/></dt>
+							<dd>安装必要APP，体验眼镜验光</dd>
+						</dl>	
+					</div>
+				</div>
+				
+				
+				
+				<ul class="editor-policy">
+					
+						<li>
+						    <span><i class="iconfont">&#xe627;</i> 7天无忧退换</span>
+						    <div><i></i>实物破损、不符、质量问题，退换货商家承担往返运费。</div>
+						</li>
+					
+						<li>
+						    <span><i class="iconfont">&#xe627;</i>先行赔付</span>
+						    <div><i></i>争议可申诉，申诉成功，立即退款。</div>
+						</li>
+					
+						<li>
+						    <span><i class="iconfont">&#xe627;</i>超时赔偿</span>
+						    <div><i></i>未按承诺时间发货，系统自动赔付（赔款金额为订单商品金额的30%，上限500元）。</div>
+						</li>
+					
+						<li>
+						    <span><i class="iconfont">&#xe627;</i>顺丰包邮</span>
+						    <div><i></i>运费由商家承担</div>
+						</li>
+					
+				</ul>
+			</div>
+		
+		
+		
+		<div class="editor-panel">
+			<div class="panel-top">
+				<h1>纯钛飞行员太阳镜-BGS6001（可配近视）</h1>
+				<p>高端航空纯钛打造，经典飞行员造型。</p>
+			</div>
+			<ul class="panel-main">
+				<li class="panel-press">
+					<span>售价</span>
+					<div>
+						<span class="panel-maney">￥<b>249</b></span>
+							<span class="panel-duration">生产周期：<span>3</span>天
+						</span>
+					</div>
+				</li>
+				
+				<li class="panel-specs">
+					<span>镜框</span>
+					<ul>
+						<li class="plane-choose"><img src="images/lianghei.jpg"/></li>
+						<li><img src="images/liangjin.jpg"/></li>
+						<li><img src="images/liangyin.jpg"/></li>
+						<li><img src="images/qiangse.jpg"/></li>
+					</ul>
+				</li>
+				<li class="panel-range">
+					<span>度数范围</span>
+					<span>支持近视600度-0度</span>
+					<div></div>
+				</li>
+			</ul>
+			<div class="panel-bottom">
+				<p class="bottom-matt">加入购物车</p>				
+			</div>
+		</div>
+	</div>
+
+		<div class="section-view">
+			<div class="section-view-head">
+				<a href="#"><p><i class="iconfont">&#xe7ce;</i>必然眼镜</p></a>
+				<p class="view-active">商品信息</p>
+				<p>评价详情</p>
+			</div>
+			<div class="section-view-main">
+				<div class="view-main-left">
+					<div class="left-head">					
+						<dl>
+							<dt><a href=""><img src="images/badge.jpg"/></a></dt>
+							<dd>
+								<span>商品质量：<i>4.8</i></span>
+								<span>服务态度：<i>4.9</i></span>
+							</dd>
+						</dl>
+						<div class="left-head-show">
+							<p>必然眼镜</p>
+							<span>必然眼镜携手法国依视路集团，致力融合人类视觉与光学科技，打造全球高性价比眼镜，囊括全系列、全光度镜片，个性定制的服务，倾力创造优质体验。镜片更包含多项国际专利，专业抗蓝光膜层结合依视路E-SPF抗紫外线技术，真正保护裸眼，降低伤害。必然眼镜专注于用国际技术、用心设计、平民价格打造每一副属于你的眼镜。</span>
+						</div>
+						<a href=""><p>进店看看</p></a>
+					</div>
+					<ul class="left-main">
+						<li>
+							<a href="">
+								<img src="images/left-main.jpg"/>
+								<dl>
+									<dt>1900太阳镜（可配近视）</dt>
+									<dd>￥249</dd>
+								</dl>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<img src="images/left-main.jpg"/>
+								<dl>
+									<dt>1900太阳镜（可配近视）</dt>
+									<dd>￥249</dd>
+								</dl>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<img src="images/left-main.jpg"/>
+								<dl>
+									<dt>1900太阳镜（可配近视）</dt>
+									<dd>￥249</dd>
+								</dl>
+							</a>
+						</li>
+					</ul>
+
+				</div>
+				
+				
+				
+				
+				<div class="view-main-right">
+					<p><span>主要材质</span><i>TR90</i></p>
+					<p><span>适宜性别</span><i>百搭款式，男女通用</i></p>
+					<p><span>可选镜片</span><i>1.抗疲劳片;2.抗蓝防紫片;3.感光变色片;4.绿膜镜片;5.光学墨镜（参照文字介绍）</i></p>
+					<p><span>镜框尺寸</span><i>均码</i></p>
+					<p><span>配件包装</span><i>镜盒 镜布 螺丝刀</i></p>
+					<p><span>温馨提示：</span><i>选择车房定制镜片（如切边、超光度、特殊设计等）将延长生产周期，并额外收取费用，具体操作须与客服沟通</i></p>
+					<p><span>a.</span><i>个性签名（哈气标 /镜腿刻字）及车房定制片，额外收取手工费，非质量问题不接受退换货</i></p>
+					<p><span>b.</span><i>染色墨镜片不建议添加哈气标（显字效果不明显）</i></p>
+					<img src="images/view-main-0.jpg"/>
+					<img src="images/view-main-1.jpg"/>
+					<img src="images/view-main-2.jpg"/>
+					<img src="images/view-main-3.jpg"/>
+					<img src="images/view-main-4.jpg"/>
+					<img src="images/view-main-5.jpg"/>
+					<img src="images/view-main-6.gif"/>
+					<img src="images/view-main-7.jpg"/>
+					<img src="images/view-main-8.jpg"/>
+					<img src="images/view-main-9.jpg"/>
+					<img src="images/view-main-10.jpg"/>
+					<img src="images/view-main-11.jpg"/>
+					<img src="images/view-main-12.jpg"/>
+					<img src="images/view-main-13.jpg"/>
+					<img src="images/view-main-14.jpg"/>
+					<img src="images/view-main-15.jpg"/>
+					<img src="images/view-main-16.jpg"/>
+					<img src="images/view-main-17.jpg"/>
+					<img src="images/view-main-18.jpg"/>
+					<img src="images/view-main-19.jpg"/>
+					<img src="images/view-main-20.jpg"/>
+					<img src="images/view-main-21.jpg"/>
+					<img src="images/view-main-22.jpg"/>
+					<img src="images/view-main-23.jpg"/>
+					
+					
+					
+					
+					
+				</div>
+				
+				
+				
+			</div>
+			
+			
+			
+			
+		</div>
+
+
+
+
+
+
+
+	</div>	
+		
+		
+		
+		
+	<div class="fixed-bar">
+		<a href="#"><p><i class="iconfont">&#xe7ce;</i>必然眼镜</p></a>
+		<p class="fixed-bar-active">商品信息</p>
+		<p>评价详情</p>
+		<span class="addcar">加入购物车</span>				
+	</div>	
+		
+		
+	<div class="footer">	
+		<div class="footer-init">
+			<ul class="footer-serve">
+		    	<li>
+		    		<dl>
+		    			<dt class="serve-make"><img src="images/footer-serve-1.jpg"/></dt>
+		    			<dd>直连一线制造</dd>
+		    		</dl>
+		    	</li>
+		    	<li>
+		    		<dl>
+		    			<dt class="serve-backage"><img src="images/footer-serve-2.jpg"/></dt>
+		    			<dd>全品类包邮</dd>
+		    		</dl>
+		    	</li>
+		    	<li>
+		    		<dl>
+		    			<dt class="serve-pay"><img src="images/footer-serve-3.jpg"/></dt>
+		    			<dd>平台先行赔付</dd>
+		    		</dl>
+		    	</li>
+		    	<li>
+		    		<dl>
+		    			<dt class="serve-refund"><img src="images/footer-serve-4.jpg"/></dt>
+		    			<dd>7天无忧退换货</dd>
+		    		</dl>
+		    	</li>
+		    </ul>
+	    
+		    <div class="footer-main">
+		    	<ul class="footer-detail">
+		    		<li>
+		    			<h2>帮助中心</h2>
+		    			<ul>
+		    				<li><a href="#">平台政策</a></li>
+		    				<li><a href="#" id="supEnter">商家入驻</a></li>
+		    			</ul>
+		    		</li>
+		    		<li>
+		    			<h2>关注必要</h2>
+		    			<ul>
+		    				<li class="footer-wxCode">
+		    					<a href="#">官方微信</a>
+		    					<div><i></i><span></span></div>
+		    				</li>
+		    				<li><a href="#">新浪微博</a></li>
+		    			</ul>
+		    		</li>
+		    		<li>
+		    			<h2>关于必要</h2>
+		    			<ul>
+		    				<li><a href="#">了解必要</a></li>
+		    				<li><a href="#">加入必要</a></li>
+		    				<li><a href="#">联系我们</a></li>
+		    			</ul>
+		    		</li>
+		    		<li>
+		    			<h2>下载必要APP</h2>
+		    			<p></p>
+		    		</li>
+		    	</ul>
+		    	<dl class="footer-contact">
+		    		<dt>服务监督邮箱</dt>
+		    		<dd>cs@biyao.com</dd>
+		    	</dl>
+		    </div>
+		    <div class="footer-info">
+		    	<p>
+			    	<span id="year"></span>
+			    	<script>
+			    		document.getElementById('year').innerHTML = 'Copyright © '+ new Date().getFullYear() +', BIYAO.COM';
+			    	</script>
+			    	<span>珠海必要科技有限公司</span>
+			    	<span>粤网文〔2018〕0969-419号</span>
+			    	<span>
+			    		<a href="#">粤公网安备44049102496139号</a>
+			        </span>
+			        <span>
+			        	 <a href="#">粤ICP备13088531号-2</a>
+			        </span>
+		    	</p>
+		    	<p>
+		    		<span><a href="#">互联网药品信息服务资格证书</a></span>
+		    		<span><a href="#">食品经营许可证</a></span>	
+		    	</p>
+		    	<p><span>公司地址：珠海市唐家湾镇哈工大路1号1栋E301-15</span><span>公司电话：0756-3635580</span></p>
+		    	<p>必要商城提示您，产品“由某制造商出品”仅为陈述制造商既往生产经历，并不意味着相应产品与特定品牌产品相同或近似。</p>
+		    </div>
+		</div>
+
+	</div>	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</body>
+	<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery.banner.4.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/tools.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+</html>

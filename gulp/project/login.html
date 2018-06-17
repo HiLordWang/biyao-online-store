@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>	
+		<link rel="stylesheet" type="text/css" href="font_to4acaz30az41jor/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="font_3wwhm5jtm6p/iconfont.css"/>
+	</head>
+	<body>
+		<div class="accLog-header">
+			<div class="accLog-header-init">		
+				<a href="http://localhost/gulp/project/index.html" class="nav-logo"><img src="images/logo.jpg"/></a>
+				<p>欢迎来到必要，请<span class="account-login">登录</span>|<span class="account-regist"><a href="http://localhost/gulp/project/accLog.html">注册</a></span></p>
+			</div>
+		</div>
+		
+		<div class="login-main">
+			<ul>
+				<li class="lgcount-title"><i class="iconfont">&#xe625;</i> 用户登录</li>
+				<li><input type="text" name="userName" id="userName" maxLength="11" placeholder="请输入手机号"/><i class="account-error"></i></li>
+				<li><input type="password" name="password" id="password" maxLength="32" placeholder="请输入6-32位登录密码"/><i class="account-error"></i></li>
+				<li class="regist-agree">
+					<input type="checkbox" name="checkbtn" id="checkbtn" value="" />
+					<label for="checkbtn">下次自动登录</label>
+					<a href="#">忘记密码</a>
+				</li>
+				<li class="login-btn"><input type="button" name="btn" id="loginbtn" value="登录" /></li>
+				<li class="bywarning"><i class="iconfont">&#xe780;</i><span>必要不会以任何理由要求您转账汇款，谨防诈骗。</span></li>
+			</ul>
+		</div>
+
+		
+		
+		
+		
+		<div class="footer">	
+			<div class="footer-init">
+			<ul class="footer-serve">
+		    	<li>
+		    		<dl>
+		    			<dt class="serve-make"><img src="images/footer-serve-1.jpg"/></dt>
+		    			<dd>直连一线制造</dd>
+		    		</dl>
+		    	</li>
+		    	<li>
+		    		<dl>
+		    			<dt class="serve-backage"><img src="images/footer-serve-2.jpg"/></dt>
+		    			<dd>全品类包邮</dd>
+		    		</dl>
+		    	</li>
+		    	<li>
+		    		<dl>
+		    			<dt class="serve-pay"><img src="images/footer-serve-3.jpg"/></dt>
+		    			<dd>平台先行赔付</dd>
+		    		</dl>
+		    	</li>
+		    	<li>
+		    		<dl>
+		    			<dt class="serve-refund"><img src="images/footer-serve-4.jpg"/></dt>
+		    			<dd>7天无忧退换货</dd>
+		    		</dl>
+		    	</li>
+		    </ul>
+	    
+		    <div class="footer-main">
+		    	<ul class="footer-detail">
+		    		<li>
+		    			<h2>帮助中心</h2>
+		    			<ul>
+		    				<li><a href="#">平台政策</a></li>
+		    				<li><a href="#" id="supEnter">商家入驻</a></li>
+		    			</ul>
+		    		</li>
+		    		<li>
+		    			<h2>关注必要</h2>
+		    			<ul>
+		    				<li class="footer-wxCode">
+		    					<a href="#">官方微信</a>
+		    					<div><i></i><span></span></div>
+		    				</li>
+		    				<li><a href="#">新浪微博</a></li>
+		    			</ul>
+		    		</li>
+		    		<li>
+		    			<h2>关于必要</h2>
+		    			<ul>
+		    				<li><a href="#">了解必要</a></li>
+		    				<li><a href="#">加入必要</a></li>
+		    				<li><a href="#">联系我们</a></li>
+		    			</ul>
+		    		</li>
+		    		<li>
+		    			<h2>下载必要APP</h2>
+		    			<p></p>
+		    		</li>
+		    	</ul>
+		    	<dl class="footer-contact">
+		    		<dt>服务监督邮箱</dt>
+		    		<dd>cs@biyao.com</dd>
+		    	</dl>
+		    </div>
+		    <div class="footer-info">
+		    	<p>
+			    	<span id="year"></span>
+			    	<script>
+			    		document.getElementById('year').innerHTML = 'Copyright © '+ new Date().getFullYear() +', BIYAO.COM';
+			    	</script>
+			    	<span>珠海必要科技有限公司</span>
+			    	<span>粤网文〔2018〕0969-419号</span>
+			    	<span>
+			    		<a href="#">粤公网安备44049102496139号</a>
+			        </span>
+			        <span>
+			        	 <a href="#">粤ICP备13088531号-2</a>
+			        </span>
+		    	</p>
+		    	<p>
+		    		<span><a href="#">互联网药品信息服务资格证书</a></span>
+		    		<span><a href="#">食品经营许可证</a></span>	
+		    	</p>
+		    	<p><span>公司地址：珠海市唐家湾镇哈工大路1号1栋E301-15</span><span>公司电话：0756-3635580</span></p>
+		    	<p>必要商城提示您，产品“由某制造商出品”仅为陈述制造商既往生产经历，并不意味着相应产品与特定品牌产品相同或近似。</p>
+		    </div>
+		</div>
+
+		</div>
+
+	</body>
+	<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/tools.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
+</html>

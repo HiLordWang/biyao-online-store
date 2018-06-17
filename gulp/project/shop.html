@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="font_to4acaz30az41jor/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="font_3wwhm5jtm6p/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/shop.css"/>
+	</head>
+	<body>
+	
+	<div class="header">
+		<div class="h-clear">
+			<ul class="header-nav">
+				<li><a href="http://localhost/gulp/project/index.html">首页</a><b>|</b></li>
+				<li><a href="#">平台政策</a><b>|</b></li>
+				<li><a href="#">商家入驻</a></li>
+			</ul>
+			<ul class="header-user">
+				<li class="user-out">
+					<a href="http://localhost/gulp/project/login.html" id="loginBtn" class="user-login">登录</a>
+					<a href="http://localhost/gulp/project/accLog.html" id="registBtn">注册</a>
+					
+				</li>
+				<li class="user-center">
+					<a href="#" id="userName"><span></span></a>
+					<div>
+						<i></i>
+						<ul>
+							<li><a href="#" target="_blank">我的订单</a></li>
+							<li><a href="#" target="_blank">个人中心</a></li>
+							<li><a href="#" class="login-out">退出登录</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><b>|</b></li>
+				
+				<li class="user-app">
+					<a href="#">下载必要APP</a>
+					<div>
+						<i></i>
+						<dl>
+							<dt><img src="images/1.png"/></dt>
+							<dd>
+								<span>买大牌制造商产品</span>
+								<h6 style="font-weight:normal">上必要</h6>
+								<p><img src="images/erweima_03.jpg"/></p>	
+							</dd>
+						</dl>
+					</div>
+				</li>
+				<li><b>|</b></li>
+				<li class="user-msg">
+					<a href="#" class="msg-center">
+						<i id="hasMsg"></i>
+						<i class="iconfont">&#xe624;</i><span class="msg-title">消息中心</span>
+						<i id="unread">0</i>						
+					</a>
+					
+					<div class='msg-center-box'>
+						<i class="msg-center-i" ></i>
+						<div id="msg-ul" style="left: -180px;">
+							<div id="msg-scroll"></div>
+							<div id="scrollOut" class="scrollOut off none">
+								<span id='scrollIn' class="scrollIn inline"></span>
+							</div>
+						</div>
+					</div>
+					
+				</li>
+				
+				<li class="vertical-line-hook" ><b>|</b></li>
+				
+				<li class="user-server">
+					
+					<a href="#">
+						客户服务
+						<i class="iconfont">&#xe63d;</i>
+						<span></span>
+					</a>
+					<div class="myserver">
+						<i></i>
+						<ul>
+							<li><a href="#">我的客服</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="user-shopCar">
+					<a href="http://localhost/gulp/project/shop.html"><i class="iconfont">&#xe899;</i>购物车<i id="shopCar">0</i></a>
+				</li>
+				
+			</ul>
+		</div>			
+	</div>
+	
+	
+	<div class="shop-nav">
+		<div class="shop-nav-init">		
+			<a href="http://localhost/gulp/project/index.html" class="nav-logo"><img src="images/shop-logo.jpg"/></a>
+			<div class="shop-nav-righht">
+				<p class="progress"></p>
+				<ul class="car-step">
+					<li class="checked">查看购物车</li>
+					<li>确认订单信息</li>
+					<li>在线付款</li>
+					<li>收货并评价</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="wrap">
+		<div class="nothingbox">
+			<img src="images/shoppingcart.png" />
+			<p class="inline">
+				<span id="loginTip" class="sop-span">您的购物车还是空的</span>
+				<span id="unloginTip" class="sop-span">您的购物车还是空的，<a href="http://localhost/gulp/project/login.html"  class="col-link">登录</a>后，将显示您之前加入的商品。</span>
+			</p>
+		</div>
+		<div class="toindex">
+			<a href="http://localhost/gulp/project/index.html">马上购物</a>
+		</div>
+	</div>
+
+	
+	
+	
+	
+	<div class="shop-main">
+		<div class="cont-title">
+			<div class="cont-title-init">
+				 <span class="f18 col_666 mg_l10 col_523">购物车</span>
+			</div>
+		
+			<div class="cont-main">
+
+				<table class="sop-table" cellpadding="0" cellspacing="0">
+					<thead>
+						<tr>
+							<th colspan="2" width="15%" align="left" class="pd_l10">
+							    <input type="checkbox" name="allcheck" id="allcheck" class="allcheck" value=""/><label for="allcheck">全选</label>	 
+							</th>
+							<th align="left" >商品信息</th>
+							<th width="10%" >单价</th>
+							<th width="10%" >数量</th>		
+							<th width="10%" >小计</th>
+							<th width="5%" align="center">操作</th>
+						</tr>
+					</thead>
+					<tbody>
+						
+								
+					</tbody>
+					<tfoot>
+						<tr>
+							<th colspan="4" align="left">
+						    	<input type="checkbox" name="allcheck" id="allcheck" class="allcheck" value=""/><label for="allcheck">全选</label>	 
+						    	<span class="delall">删除</span>
+							</th>		
+							<th align="center" >商品总数<b class="resultnum">12</b>件</th>
+							<th align="center"  colspan="2">商品总价<b class="resultsum">22</b></th>
+						</tr>
+						<tr class="table-footer">
+							<th colspan="6" align="left">		 
+						    	<a href="http://localhost/gulp/project/index.html"><span class="continueshop">继续购物</span></a>
+							</th>		
+							<th align="right" >
+								<a href="http://ww2.sinaimg.cn/large/9150e4e5ly1fiidwzymyhj20e80e8755.jpg"><span class="accounts">结算</span></a>
+							</th>
+						</tr>
+					</tfoot>
+
+				</table>
+			</div>
+		</div>
+	</div>	
+
+
+<div class="modalshow">
+	<div>
+		<p class="modalshow-title">提示<b>X</b></p>
+		<p class="modalshow-main">不能再减了，再减就没了</p>
+		<input type="button" name="makesure" id="makesure" value="确定" />
+		
+	</div>
+</div>
+
+
+
+	
+	<div class="footer">	
+		<div class="footer-init">
+			<ul class="footer-serve">
+		    	<li>
+		    		<dl>
+		    			<dt class="serve-make"><img src="images/footer-serve-1.jpg"/></dt>
+		    			<dd>直连一线制造</dd>
+		    		</dl>
+		    	</li>
+		    	<li>
+		    		<dl>
+		    			<dt class="serve-backage"><img src="images/footer-serve-2.jpg"/></dt>
+		    			<dd>全品类包邮</dd>
+		    		</dl>
+		    	</li>
+		    	<li>
+		    		<dl>
+		    			<dt class="serve-pay"><img src="images/footer-serve-3.jpg"/></dt>
+		    			<dd>平台先行赔付</dd>
+		    		</dl>
+		    	</li>
+		    	<li>
+		    		<dl>
+		    			<dt class="serve-refund"><img src="images/footer-serve-4.jpg"/></dt>
+		    			<dd>7天无忧退换货</dd>
+		    		</dl>
+		    	</li>
+		    </ul>
+		    
+		    
+		    <div class="footer-main">
+		    	<ul class="footer-detail">
+		    		<li>
+		    			<h2>帮助中心</h2>
+		    			<ul>
+		    				<li><a href="#">平台政策</a></li>
+		    				<li><a href="#" id="supEnter">商家入驻</a></li>
+		    			</ul>
+		    		</li>
+		    		<li>
+		    			<h2>关注必要</h2>
+		    			<ul>
+		    				<li class="footer-wxCode">
+		    					<a href="#">官方微信</a>
+		    					<div><i></i><span></span></div>
+		    				</li>
+		    				<li><a href="#">新浪微博</a></li>
+		    			</ul>
+		    		</li>
+		    		<li>
+		    			<h2>关于必要</h2>
+		    			<ul>
+		    				<li><a href="#">了解必要</a></li>
+		    				<li><a href="#">加入必要</a></li>
+		    				<li><a href="#">联系我们</a></li>
+		    			</ul>
+		    		</li>
+		    		<li>
+		    			<h2>下载必要APP</h2>
+		    			<p></p>
+		    		</li>
+		    	</ul>
+		    	<dl class="footer-contact">
+		    		<dt>服务监督邮箱</dt>
+		    		<dd>cs@biyao.com</dd>
+		    	</dl>
+		    </div>
+		    <div class="footer-info">
+		    	<p>
+			    	<span id="year"></span>
+			    	<script>
+			    		document.getElementById('year').innerHTML = 'Copyright © '+ new Date().getFullYear() +', BIYAO.COM';
+			    	</script>
+			    	<span>珠海必要科技有限公司</span>
+			    	<span>粤网文〔2018〕0969-419号</span>
+			    	<span>
+			    		<a href="#">粤公网安备44049102496139号</a>
+			        </span>
+			        <span>
+			        	 <a href="#">粤ICP备13088531号-2</a>
+			        </span>
+		    	</p>
+		    	<p>
+		    		<span><a href="#">互联网药品信息服务资格证书</a></span>
+		    		<span><a href="#">食品经营许可证</a></span>	
+		    	</p>
+		    	<p><span>公司地址：珠海市唐家湾镇哈工大路1号1栋E301-15</span><span>公司电话：0756-3635580</span></p>
+		    	<p>必要商城提示您，产品“由某制造商出品”仅为陈述制造商既往生产经历，并不意味着相应产品与特定品牌产品相同或近似。</p>
+		    </div>
+		</div>
+	</div>
+	</body>
+	<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/tools.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/shop.js" type="text/javascript" charset="utf-8"></script>
+</html>
