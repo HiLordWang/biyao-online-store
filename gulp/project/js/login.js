@@ -60,27 +60,27 @@
 
 	
 	$(ologinbtn).click(function(){
-		
+		console.log($("#password").val());
 		if(ocheckbtn.checked){
 			 num=7;
 		}
 		$.ajax({
 			type:"post",
-			url:"http://localhost/gulp/project/data/register.php",
+			url:"http://localhost/gulp/project/data/verify.php",
 			data:{
-				userL:$(ouserName).val(),
-				passL:$(opassword).val()
+				user:$("#userName").val(),
+				pass:$("#password").val()
+
 			},
 			async:true
 		}).then(function(a){
-			if (a==$(ouserName).val()) {
-//				setCookie($(ouserName).val(),$(opassword).val(),num);
+			if (a==1) {
 				setCookie("user",$(ouserName).val(),num);
 				setCookie("pass",$(opassword).val(),num);
 				location.href="http://localhost/gulp/project/index.html";
 				
 			}else{
-				alert("用户名和密码不正确")
+				alert("用户名或密码不正确")
 			}			
 
 

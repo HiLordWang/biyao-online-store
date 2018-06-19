@@ -90,30 +90,23 @@
 		}
 	}
 
-//	oaccbtn.onclick=function(){
-//		if(!ocheckbtn.checked){
-//			alert("ヽ(●-`Д´-)ノ同意服务协议 ") 
-//			return null;
-//		}
-//		
-//		
-//	}
 	
 	$(oaccbtn).click(function(){
 		if(!ocheckbtn.checked){
-			alert("ヽ(●-`Д´-)ノ同意服务协议 ") 
+			alert("ヽ(●-`Д´-)ノ同意服务协议 "); 
 			return null;
 		}
-			$.ajax({
-				type:"post",
-				url:"http://localhost/gulp/project/data/register.php",
-				data:{
-					user:$(ouserName).val(),
-					pass:$(opassword).val()
-				},
-				async:true
-			})
+		$.ajax({
+			type:"post",
+			url:"http://localhost/gulp/project/data/info.php",
+			data:{
+				user:$(ouserName).val(),
+				pass:$(opassword).val()
+			},
+			async:true
 		})
+		location.href="http://localhost/gulp/project/login.html";
+	})
 		
 
 
